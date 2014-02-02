@@ -36,12 +36,43 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+        <style> 
+ 	body
+ 	{
+ 	background:url("res/bkg.jpg");
+ 	<!--background-size:1400px 650px;-->
+ 	background-repeat:no-repeat; 
+ 	padding-top:40px;
+ 	}
+ 	
+ 	 strong
+ 	 {
+ 	  color:yellow;
+ 	  font-weight:bold;
+ 	  font-family:cursive;
+ 	  font-size:3em;
+ 	 }
+ 	
+	 </style>
+        
     </head>
     <body>
 
         <!-- Add your site or application content here -->
         
-        Hello srikanth
+      
+        <p style="text-align:center; color:white">
+		
+		Here is a new trailer.Enjoy! (NOTE: track tag unavailable in firefox and safari) <br>
+		<strong>WOLF OF WALL STREET</strong>
+		<br/>
+		<video width="1200" height="650" autoplay controls>
+    <source src="res/twows.mp4" type='video/mp4' >
+    <track label="English subtitles" kind="subtitles" srclang="en" src="res/twows.vtt" default>
+    Your browser does not support the video tag
+  </video>
+		
 
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
